@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebDynpro xmlns="http://www.sap.com/wd/webdynpro">
+  <View name="EmployeeFormView">
+    <Title>Employee Form</Title>
+    <FormContainer id="formContainer1">
+      <FormElement id="formElement1">
+        <Label text="Employee ID" id="labelEmpID"/>
+        <InputField id="inputFieldEmpID" value="{/Employee/EmpID}"  required="true"/>
+      </FormElement>
+      <FormElement id="formElement2">
+        <Label text="First Name" id="labelFirstName"/>
+        <InputField id="inputFieldFirstName" value="{/Employee/FirstName}" required="true"/>
+      </FormElement>
+      <FormElement id="formElement3">
+        <Label text="Last Name" id="labelLastName"/>
+        <InputField id="inputFieldLastName" value="{/Employee/LastName}" required="true"/>
+      </FormElement>
+      <FormElement id="formElement4">
+        <Label text="Department" id="labelDepartment"/>
+        <DropDownByKey id="dropDownDepartment" key="{/Employee/Department}"  text="{/Employee/DepartmentText}" >
+          <!-- Example entries -  Replace with your actual data source -->
+          <DropDownByIndex value="SALES" key="SALES" text="Sales"/>
+          <DropDownByIndex value="MARKETING" key="MARKETING" text="Marketing"/>
+          <DropDownByIndex value="IT" key="IT" text="IT"/>
+        </DropDownByKey>
+      </FormElement>
+      <FormElement id="formElement5">
+        <Label text="Email" id="labelEmail"/>
+        <InputField id="inputFieldEmail" value="{/Employee/Email}" required="true"/>
+      </FormElement>
+      <FormElement id="formElement6">
+        <Label text="Phone Number" id="labelPhone"/>
+        <InputField id="inputFieldPhone" value="{/Employee/Phone}" required="true"/>
+      </FormElement>
+    </FormContainer>
+    <Button id="buttonSave" text="Save" press="onSave"/>
+    <MessageArea id="messageArea"/>
+  </View>
+  <Controller name="EmployeeFormViewController">
+    <!-- Methods -->
+    <Method name="onSave">
+      <!--Implementation to save employee data.  This would typically involve a call to a backend service. -->
+      <![CDATA[
+        //This is placeholder code. Replace with actual data handling
+        wdContext.currentContextElement().setEmpID(wdContext.nodeEmployee().getCurrentEmployee().getEmpID());
+        wdContext.nodeEmployee().save();
+        wdComponentAPI.getMessageManager().reportSuccess("Employee saved successfully!");
+
+      ]]>
+    </Method>
+  </Controller>
+</WebDynpro>
