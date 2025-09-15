@@ -1,0 +1,10 @@
+{
+  "Employee": {
+    "EmpID": "EMP-001",
+    "FirstName": "John",
+    "LastName": "Doe",
+    "Department": "SALES",
+    "Email": "john.doe@example.com",
+    "Phone": "123-456-7890"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "ProductID": "PROD-2001",
+      "Name": "Laptop X1",
+      "Description": "High-performance laptop for professionals",
+      "Category": "Electronics",
+      "Price": 1299.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/laptop-x1.jpg"
+    },
+    {
+      "ProductID": "PROD-2002",
+      "Name": "Ergonomic Mouse",
+      "Description": "Comfortable mouse for long hours of use",
+      "Category": "Accessories",
+      "Price": 49.99,
+      "InventoryStatus": "Out of Stock",
+      "ImageURL": "https://example.com/ergonomic-mouse.jpg"
+    },
+    {
+      "ProductID": "PROD-2003",
+      "Name": "4K Monitor",
+      "Description": "Ultra HD monitor for stunning visuals",
+      "Category": "Electronics",
+      "Price": 399.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/4k-monitor.jpg"
+    },
+    {
+      "ProductID": "PROD-2004",
+      "Name": "Wireless Keyboard",
+      "Description": "Sleek and compact wireless keyboard",
+      "Category": "Accessories",
+      "Price": 79.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/wireless-keyboard.jpg"
+    },
+    {
+      "ProductID": "PROD-2005",
+      "Name": "Noise Cancelling Headphones",
+      "Description": "Immersive audio experience with noise cancellation",
+      "Category": "Electronics",
+      "Price": 199.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/noise-cancelling-headphones.jpg"
+    },
+    {
+      "ProductID": "PROD-2006",
+      "Name": "Webcam Pro",
+      "Description": "High-definition webcam for video conferencing",
+      "Category": "Electronics",
+      "Price": 89.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/webcam-pro.jpg"
+    },
+    {
+      "ProductID": "PROD-2007",
+      "Name": "External SSD",
+      "Description": "Portable solid-state drive for fast data transfer",
+      "Category": "Storage",
+      "Price": 129.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/external-ssd.jpg"
+    },
+    {
+      "ProductID": "PROD-2008",
+      "Name": "Office Chair",
+      "Description": "Ergonomic office chair for comfortable seating",
+      "Category": "Furniture",
+      "Price": 249.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/office-chair.jpg"
+    },
+    {
+      "ProductID": "PROD-2009",
+      "Name": "Desk Lamp",
+      "Description": "Adjustable desk lamp for optimal lighting",
+      "Category": "Accessories",
+      "Price": 39.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/desk-lamp.jpg"
+    },
+    {
+      "ProductID": "PROD-2010",
+      "Name": "USB Hub",
+      "Description": "Multi-port USB hub for connecting multiple devices",
+      "Category": "Accessories",
+      "Price": 29.99,
+      "InventoryStatus": "In Stock",
+      "ImageURL": "https://example.com/usb-hub.jpg"
+    }
+  ]
+}

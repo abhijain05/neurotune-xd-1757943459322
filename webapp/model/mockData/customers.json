@@ -1,0 +1,124 @@
+{
+  "customers": [
+    {
+      "CustomerID": "CUST-1001",
+      "Name": "Acme Corp",
+      "Email": "info@acme.com",
+      "Phone": "555-1212",
+      "Address": "123 Main St",
+      "City": "Anytown",
+      "State": "CA",
+      "Zip": "91234",
+      "CreatedDate": "2023-01-15",
+      "Status": "Active"
+    },
+    {
+      "CustomerID": "CUST-1002",
+      "Name": "Beta Industries",
+      "Email": "sales@betaind.com",
+      "Phone": "555-2323",
+      "Address": "456 Oak Ave",
+      "City": "Springfield",
+      "State": "IL",
+      "Zip": "62704",
+      "CreatedDate": "2022-11-01",
+      "Status": "Inactive"
+    },
+    {
+      "CustomerID": "CUST-1003",
+      "Name": "Gamma Solutions",
+      "Email": "support@gamma.net",
+      "Phone": "555-3434",
+      "Address": "789 Pine Ln",
+      "City": "Hill Valley",
+      "State": "CA",
+      "Zip": "90210",
+      "CreatedDate": "2023-03-20",
+      "Status": "Active"
+    },
+    {
+      "CustomerID": "CUST-1004",
+      "Name": "Delta Systems",
+      "Email": "info@deltasys.com",
+      "Phone": "555-4545",
+      "Address": "101 Elm Rd",
+      "City": "Gotham",
+      "State": "NY",
+      "Zip": "10001",
+      "CreatedDate": "2022-09-05",
+      "Status": "Active"
+    },
+    {
+      "CustomerID": "CUST-1005",
+      "Name": "Epsilon Technologies",
+      "Email": "sales@epsilont.tech",
+      "Phone": "555-5656",
+      "Address": "222 Maple Dr",
+      "City": "Metropolis",
+      "State": "IL",
+      "Zip": "60606",
+      "CreatedDate": "2023-05-10",
+      "Status": "Pending"
+    },
+    {
+      "CustomerID": "CUST-1006",
+      "Name": "Zeta Enterprises",
+      "Email": "info@zetaent.com",
+      "Phone": "555-6767",
+      "Address": "333 Birch Ct",
+      "City": "Sunnyvale",
+      "State": "CA",
+      "Zip": "94087",
+      "CreatedDate": "2022-07-12",
+      "Status": "Active"
+    },
+    {
+      "CustomerID": "CUST-1007",
+      "Name": "Eta Dynamics",
+      "Email": "support@etadyn.com",
+      "Phone": "555-7878",
+      "Address": "444 Cedar St",
+      "City": "San Jose",
+      "State": "CA",
+      "Zip": "95113",
+      "CreatedDate": "2023-02-28",
+      "Status": "Active"
+    },
+    {
+      "CustomerID": "CUST-1008",
+      "Name": "Theta Innovations",
+      "Email": "info@thetainnov.com",
+      "Phone": "555-8989",
+      "Address": "555 Pine Ave",
+      "City": "Palo Alto",
+      "State": "CA",
+      "Zip": "94301",
+      "CreatedDate": "2022-12-05",
+      "Status": "Inactive"
+    },
+    {
+      "CustomerID": "CUST-1009",
+      "Name": "Iota Solutions",
+      "Email": "sales@iotasol.com",
+      "Phone": "555-9090",
+      "Address": "666 Oak Ln",
+      "City": "Mountain View",
+      "State": "CA",
+      "Zip": "94043",
+      "CreatedDate": "2023-04-18",
+      "Status": "Active"
+    },
+    {
+      "CustomerID": "CUST-1010",
+      "Name": "Kappa Systems",
+      "Email": "info@kappasys.com",
+      "Phone": "555-0101",
+      "Address": "777 Elm Rd",
+      "City": "Cupertino",
+      "State": "CA",
+      "Zip": "95014",
+      "CreatedDate": "2022-08-22",
+      "Status": "Active"
+    }
+  ]
+}

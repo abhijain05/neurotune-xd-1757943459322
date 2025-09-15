@@ -1,23 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mvc:View xmlns:mvc="sap.ui.core.mvc"
-  xmlns="sap.m"
-  xmlns:layout="sap.ui.layout"
-  xmlns:form="sap.ui.layout.form"
-  xmlns:core="sap.ui.core"
-  xmlns:richtexteditor="sap.ui.richtexteditor"
-  xmlns:viz="sap.viz.ui5"
-  controllerName="preview.app.controller.EmployeeFormView"
-  displayBlock="true">
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:layout="sap.ui.layout"
+  xmlns:form="sap.ui.layout.form" xmlns:core="sap.ui.core" xmlns:richtexteditor="sap.ui.richtexteditor"
+  xmlns:viz="sap.viz.ui5" controllerName="converted.employeeformview.controller.EmployeeFormView"
+  displayBlock="true"
+          xmlns:commons="sap.ui.commons">
   <Page title="EmployeeFormView" enableScrolling="true">
     <content>
       <Title id="title_gedsplhu" text="Employee Form"/>
-      <form:SimpleForm id="formContainer1">
+      <form:SimpleForm id="formContainer1" editable="true" layout="ResponsiveGridLayout">
         <form:content>
-          <!-- Empty SimpleForm content -->
+          <Title text="Employee Information"/>
+          <Label text="Employee ID" id="labelEmpID"/>
+          <Input id="inputFieldEmpID" value="{employee>/Employee/EmpID}" required="true"/>
+          <Label text="First Name" id="labelFirstName"/>
+          <Input id="inputFieldFirstName" value="{employee>/Employee/FirstName}" required="true"/>
+          <Label text="Last Name" id="labelLastName"/>
+          <Input id="inputFieldLastName" value="{employee>/Employee/LastName}" required="true"/>
+          <Label text="Department" id="labelDepartment"/>
+          <Select id="dropDownDepartment" selectedKey="{employee>/Employee/Department}">
+            <core:Item key="SALES" text="Sales"/>
+            <core:Item key="MARKETING" text="Marketing"/>
+            <core:Item key="IT" text="IT"/>
+          </Select>
+          <Label text="Email" id="labelEmail"/>
+          <Input id="inputFieldEmail" value="{employee>/Employee/Email}" required="true"/>
+          <Label text="Phone Number" id="labelPhone"/>
+          <Input id="inputFieldPhone" value="{employee>/Employee/Phone}" required="true"/>
         </form:content>
       </form:SimpleForm>
-      <Button id="buttonSave" text="Save"/>
-      <MessagePopover id="messageArea"/>
+      <Button id="buttonSave" text="Save" press="onSavePress" tooltip="Save Employee Data"/>
+      <MessagePopover id="messageArea"
+        items="{messages>/messages}">
+        <MessageItem type="{messages>type}" title="{messages>title}" description="{messages>description}"
+          subtitle="{messages>subtitle}"/>
+      </MessagePopover>
     </content>
   </Page>
 </mvc:View>
