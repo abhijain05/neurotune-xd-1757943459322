@@ -10,7 +10,7 @@
   displayBlock="true">
   <Page title="EmployeeFormView" enableScrolling="true">
     <content>
-      <Title id="title_hy1proli" text="Employee Form"/>
+      <Title id="title_gedsplhu" text="Employee Form"/>
       <form:SimpleForm id="formContainer1">
         <form:content>
           <!-- Empty SimpleForm content -->
